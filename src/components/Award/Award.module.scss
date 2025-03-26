@@ -1,0 +1,119 @@
+#award{
+    background-color: var(--green-color);
+    display: flex;
+    justify-content: space-between;
+}
+#award h2 {
+    color: var(--black-text);
+    text-align: left;
+    padding: 112px 0 40px 56px;
+    width: 500px;
+}
+#award .restaurans{
+    padding: 30px 10px;
+    display: flex;
+    gap: 24px;
+}
+.restauran img{
+    width: 186px;
+    height: 220px;
+    border-radius: 8px;
+}
+#award a{
+    font-family: 'Hind', sans-serif;
+    margin-left: 56px;
+    padding: 12px 24px;
+    background-color: var(--link-big-color);
+    color: var(--bg-color);
+    border-radius: 4px;
+}
+.restauranRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.restauran{
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+#award .headh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 1200px) {
+    #award{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 0 16px;
+    }
+    #award h2{
+        min-width: 70vw;
+        padding: 32px 0;
+        text-align: center;
+    }
+    #award .headh{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    #award .restaurans{
+        min-width: 70vw;
+        justify-content: space-between;
+        position: static;
+        overflow: hidden;
+        transform: none;
+    }
+    #award a{
+        padding: 10px 15px;
+        margin: 0 auto 20px auto;
+    }   
+}
+@media (max-width: 768px) {
+    #award{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        height: auto;
+        padding: 0 16px;
+    }    
+    #award h2{
+        font-size: 38px;
+        padding: 32px 0 24px 0;
+        text-align: center;
+        width: auto;
+    }
+    #award a{
+        font-size: 12px;
+    }
+    #award p{
+        font-size: 10px;
+    }
+    #award .restaurans{
+        width: clamp(328px, 1vw, 500px);
+        gap: clamp(10px, 1vw, 20px);
+        justify-content: space-between;
+        position: static;
+        overflow: hidden;
+        transform: none;
+    }
+
+    #award .restaurans img{
+        height: 90px;
+        width: 90px;
+    }
+    .restauran__row{
+        gap: 10px;
+    }
+    .restauran{
+        padding: 5px;
+    }
+}
+
+  

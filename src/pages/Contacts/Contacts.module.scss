@@ -1,0 +1,14 @@
+main h2{
+    padding: 56px 0;
+    text-align: center;
+    background-color: #E5F8BC;
+}
+main section{
+    padding: 56px 72px;
+    text-align: left;
+}
+@media (max-width: 768px) {
+    main section{
+        padding: 32px 16px;
+    }
+}

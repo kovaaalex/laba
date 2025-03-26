@@ -1,8 +1,39 @@
+:root {
+  --bg-color: #ffffff;
+  --black-text: #202020;
+  --banner-color: #B1DDE4;
+  --link-big-color: #202020;  
+  --light-grey: #F9F9F9;
+  --category-color: #fff;
+  --green-color: #E5F8BC;
+  --text-color: #000000;
+  --header-bg: white;
+  --dropdown: #D9D9D9;
+  --dropdown-hover: #D9D9D9;
+}
+
+#dark__theme {
+  --bg-color: #202020;
+  --black-text: #ffffff;
+  --banner-color: #2C2C2C;
+  --link-big-color: #E5F8BC;
+  --light-grey: #2C2C2C;
+  --category-color: #2C2C2C;
+  --green-color: #2C2C2C;
+  --text-color: #ffffff;
+  --header-bg: #202020;
+  --dropdown: #2C2C2C;
+  --dropdown-hover: #353637;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Hind', 'Segoe UI', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +41,53 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43.95px;
+  line-height: 56px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+a{
+  font-family: 'Hind', sans-serif;
+  line-height: 28.82px;
+  text-decoration: none;
+}
+h3{
+    font-family: 'Hind', sans-serif;
+    font-size: 35.16px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+.cafes h3, .categories h3, .category__section h3, .contacts h3, .marks h3, .about__section h3, .form__section h3 {
+  font-family: 'Montserrat';
+  font-size: 35.16px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1200px) {
+  #award h2{
+      padding: 32px 0 24px 0;
+  }
+}
+@media (max-width: 768px) {
+  .restauran p{
+      width: 90px;
+      font-size: 10.5px;
+  }
+}
+@media (max-width: 630px) {
+  h2{
+      font-size: 38px
+  }
+  .cafes h3, .categories h3, .category__section h3, .contacts h3, .marks h3, .about__section h3, .form__section h3{
+      font-size: 31px;
+      line-height: 40px;
+      letter-spacing: -1px;
+  }
+}
+#dark__theme #header{
+  background-color: #202020;
 }

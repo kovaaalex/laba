@@ -1,0 +1,32 @@
+.pick{
+    text-align: left;
+    padding-bottom: 16px;
+    background-color: var(--light-grey);
+    border-radius: 8px;
+}
+.description{
+    margin-top: 16px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.comfort__food{
+    margin-top: 16px;
+}
+.comfort__food a{
+    padding: 3px 8px;
+    background-color: #E9E9E9;
+    color: #363636;
+}
+@media (max-width: 768px) {
+    .pick{
+        width: 288px;
+    }
+    .pick img{
+        width: 288px;
+        height: 180px;
+    }
+}
+

@@ -1,0 +1,25 @@
+.cafes{
+    background-color: var(--bg-color);
+    color: var(--black-text);
+    position: relative;
+    padding: 72px 56px;
+    z-index: 3;
+    text-align: left;
+}
+.picks{
+    display: flex;
+    justify-content: space-between;
+    transition: transform 1.5s ease;
+  }
+@media (max-width: 1439px) {
+    .picks{
+        overflow-x: scroll;
+        gap: 16px;
+        scrollbar-width: thin;
+    }  
+}
+@media (max-width: 1439px) {
+    .cafes, .categories{
+        padding: 16px 0px 16px 32px;
+    }
+}
