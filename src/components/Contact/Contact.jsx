@@ -6,7 +6,7 @@ function Contact() {
             <a className={styles.marks__link} href="./marks">Отзывы</a>
             <div className={styles.picks}>
                 <div className={styles.pick}>
-                    <img data-src="/assets/images/restaurans/artissan.jfif" alt="cafe" className="lazy" loading="lazy"/>
+                    <img data-src="/laba/assets/images/restaurans/artissan.jfif" alt="cafe" className="lazy" loading="lazy"/>
                     <div className={styles.description}>
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22061.58822588857!2d27.5607632!3d53.904353!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x46dbcfebcb12c407%3A0xb33cf306cb98d459!2z0JfQvtC70LDQudC-0L3QvtC10YDQvtC-0L3QvtC10L3QuNin0L3Qu9C-0YDQvtC10YDQvtC-0L3QvtC10L3Qu9C-0YDQvtC10YDQvtC-0L3QvtC10L3Qu9C-0YDQvtC10!5e0!3m2!1sru!2sru!4v1622530629000!5m2!1sru!2sru&output=embed&z=16">
@@ -21,7 +21,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className={styles.pick}>
-                    <img data-src="assets/images/restaurans/artissan.jfif" alt="cafe" className="lazy" loading="lazy"/>
+                    <img data-src="/laba/assets/images/restaurans/artissan.jfif" alt="cafe" className="lazy" loading="lazy"/>
                     <div className={styles.description}>
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22061.58822588857!2d27.5607632!3d53.904353!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x46dbcfebcb12c407%3A0xb33cf306cb98d459!2z0JfQvtC70LDQudC-0L3QvtC10YDQvtC-0L3QvtC10L3QuNin0L3Qu9C-0YDQvtC10YDQvtC-0L3QvtC10L3Qu9C-0YDQvtC10YDQvtC-0L3QvtC10L3Qu9C-0YDQvtC10!5e0!3m2!1sru!2sru!4v1622530629000!5m2!1sru!2sru&output=embed&z=16">
@@ -36,7 +36,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className={styles.pick}>
-                    <img data-src="assets/images/restaurans/artissan.jfif" alt="cafe" className="lazy" loading="lazy"/>
+                    <img data-src="/laba/assets/images/restaurans/artissan.jfif" alt="cafe" className="lazy" loading="lazy"/>
                     <div className={styles.description}>
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22061.58822588857!2d27.5607632!3d53.904353!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x46dbcfebcb12c407%3A0xb33cf306cb98d459!2z0JfQvtC70LDQudC-0L3QvtC10YDQvtC-0L3QvtC10L3QuNin0L3Qu9C-0YDQvtC10YDQvtC-0L3QvtC10L3Qu9C-0YDQvtC10YDQvtC-0L3QvtC10L3Qu9C-0YDQvtC10!5e0!3m2!1sru!2sru!4v1622530629000!5m2!1sru!2sru&output=embed&z=16">

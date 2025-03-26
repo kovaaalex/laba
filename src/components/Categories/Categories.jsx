@@ -37,7 +37,7 @@ function Categories() {
         <a href="pages/categories.html" class="link">View all categories</a>
         <div className={styles.categories__list}>
             {food.map(el => (<div className={styles.category}>
-                <img data-src={`assets/images/categories/${el.image}`} alt="pizza" className="lazy" loading='lazy'/>
+                <img data-src={`/laba/assets/images/categories/${el.image}`} alt="pizza" className="lazy" loading='lazy'/>
                 <p>{el.name}</p>
             </div>))}
         </div>

@@ -57,7 +57,7 @@ function Award(){
             <div className={styles.restaurans}>
                 {restaurans.map(restauranRow => (<div className={styles.restauranRow}>
                     {restauranRow.map(restauran => (<div className={styles.restauran}>
-                        <img data-src={`assets/images/restaurans/${restauran.image}`} alt={restauran.name} className="lazy" loading='lazy'/>
+                        <img data-src={`/laba/assets/images/restaurans/${restauran.image}`} alt={restauran.name} className="lazy" loading='lazy'/>
                         <p>{restauran.name}</p>
                     </div>))}
                 </div>))}

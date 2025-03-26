@@ -2,7 +2,7 @@ import styles from './Pick.module.scss';
 function Pick({cafe}){
     return(
         <div className={styles.pick}>
-            <img data-src="assets/images/cafe.png" alt="cafe" className="lazy"></img>
+            <img data-src="/laba/assets/images/cafe.png" alt="cafe" className="lazy"></img>
             <div className={styles.description}>
                 <h4>{cafe.name}</h4>
                 <p className={styles.description__marks}>★ {cafe.mark}</p>

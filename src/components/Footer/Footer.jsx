@@ -3,7 +3,7 @@ import styles from './Footer.module.scss'
 function Footer() {
     return (<footer>
         <div className={styles.footer__container}>
-            <img data-src="assets/images/logo.svg" alt="logo" className="lazy" loading="lazy"/>
+            <img data-src="/laba/assets/images/logo.svg" alt="logo" className="lazy" loading="lazy"/>
             <section>
                 <h3>Discover us</h3>
                 <a href="./index.html" className={styles.link}>Home</a>
